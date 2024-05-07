@@ -1,0 +1,96 @@
+<form id="cadUser" name="cadastro" action="" method="GET" target="_self">
+<input type="hidden" id="btnMenu" name="btnMenu" value="cadastrou">
+                <div id="formHeader">
+                    <h1>Cadastro de Usuario </h1>
+                </div>
+                <div class="inputGroup">
+                    <div class="inputBox">
+                        <label for="userNome">Nome:</label>
+                        <input class="txt1"type="text" name="nome" id="userNome" required>
+                    </div>
+                    <div class="inputBox">
+                        <label for="sobNome">Sobrenome:</label>
+                        <input class="txt1" type="text"  name="sobrenome" id="sobNome" required>
+                    </div>
+                    <div class="inputBox">
+                        <label for="cpf">CPF:</label>
+                        <input class="txt1" id="cpf" type="text" name="cpf" required>
+                    </div>
+                    <div id="local">
+                        <div class="inputBox" id="location"> 
+                            <label for="cidade">Cidade:</label>
+                            <input class="txt2" id="cidade" type="text" name="cidade" required>
+                        </div>
+                        <div class="inputBox" id="ufbox">
+                            <label for="uf">UF:</label>
+                            <select id="uf" name="uf" id="estado">
+                                <option value="--">--</option>
+                                <option value="AC">AC</option>
+                                <option value="AL">AL</option>
+                                <option value="AP">AP</option>
+                                <option value="AM">AM</option>
+                                <option value="BA">BA</option>
+                                <option value="CE">CE</option>
+                                <option value="DF">DF</option>
+                                <option value="ES">ES</option>
+                                <option value="GO">GO</option>
+                                <option value="MT">MA</option>
+                                <option value="MS">MS</option>
+                                <option value="MG">MG</option>
+                                <option value="PA">PA</option>
+                                <option value="PB">PB</option>
+                                <option value="PR">PR</option>
+                                <option value="PE">PE</option>
+                                <option value="PI">PI</option>
+                                <option value="RJ">RJ</option>
+                                <option value="RN">RN</option>
+                                <option value="RS">RS</option>
+                                <option value="RO">RO</option>
+                                <option value="RR">RR</option>
+                                <option value="SC">SC</option>
+                                <option value="SE">SE</option>
+                                <option value="SP">SP</option>
+                                <option value="TO">TO</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="inputBox">
+                        <label for="endereco">Endereço</label>
+                        <textarea class="txt1" id="endereco" name="endereco" required></textarea> 
+                    </div>
+                    <div class="inputBox" id="digAdress">
+                        <label for="email">Email:</label>
+                        <div class="doubleIpt">
+                        <input type="text" name="email" id="email" required>
+                        <select name="email2" id="emails">
+                            <option value="gmail.com">@gmail.com</option>
+                        </select>
+                    </div>
+                    </div>
+                    <div class="inputBox" id="cellphone">
+                        <label for="">Telefone:</label>
+                        <div class="doubleIpt">
+                            <input id="ddd"  type="text" name="ddd" placeholder="DDD" required>
+                            <input type="text" placeholder="xxxxx-xxxx" name="cell" id="cellnum" required></div>
+                    </div>
+                    <div class="inputBox">
+                        <label for="login">Login:</label>
+                        <input type="text" name="login" placeholder="Login" id="user" required >
+                    </div>
+                    <div class="inputBox">
+                        <label for="password">Senha:</label>
+                        <input type="password" name="senha" placeholder="Senha" id="password" required>
+                        <span id="senhaError" class="error"></span>
+                    </div>
+                    <div class="inputBox">
+                        <label for="conPassword">Confirmar senha:</label>
+                        <input type="password" name="con_senha" placeholder="Confirmar senha" id="conPassword" required>
+                        <span id="senhaError2" class="error"></span>
+                    </div>
+                    <div class="subBox">
+                        <input type="submit" value="Cadastrar" id="btnSub">
+                        <input type="reset" value="Limpar" id="btnRst">
+                    </div>
+                        
+                    </div>      
+                </form>

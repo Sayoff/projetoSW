@@ -1,0 +1,92 @@
+<html lang="pt-br"><head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="estilo/style.css">
+    <script type="text/JavaScript" src="script/script.js"></script>
+    <script type="text/JavaScript" src="script/jquery-3.7.1.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vinicius Cunha</title>
+    <body>
+    <div class="grid-container" id="container">
+        <div class="item1" id="topo">
+            <h1>Vinicius Cunha</h1>
+        </div>
+        <div id="menu" class="item2">
+                    <form id="formMenu" name="formMenu" action="" target="_self" method="GET">
+        <input id="btn-menu" type="submit" value="home" name="btnMenu" wfd-id="id0">
+        <input id="btn-menu" type="submit" value="sobre" name="btnMenu" class="active" wfd-id="id1">
+        <input id="btn-menu" type="submit" value="cadastrarUsuario" name="btnMenu" wfd-id="id2">
+    </form>            </div>
+        <div id="conteudo" class="item3">
+            <form id="senhaForm" action="" method="post">
+                <table>
+                    <tbody><tr>
+                        <td colspan="1"><label class="input-label" for="nome" align="right">Nome:*</label></td>
+                        <td colspan="4"><input type="text" id="nome" name="nome" minlength="3" maxlength="30" required="" wfd-id="id3"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="1"><label class="input-label" for="sobren" align="right">Sobrenome:*</label></td>
+                        <td colspan="4"><input type="text" id="sobren" name="sobren" minlength="3" maxlength="50" required="" wfd-id="id4"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="1"><label class="input-label" for="cpf" align="right">CPF:*</label></td>
+                        <td colspan="4"><input type="text" id="cpf" name="cpf" minlength="14" maxlength="14" required="" wfd-id="id5"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="1"><label class="input-label" for="ende" align="right">Endereço:</label></td>
+                        <td colspan="4"><input type="text" id="ende" name="ende" minlength="4" maxlength="170" wfd-id="id6"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="1"><label class="input-label" for="cid" align="right">Cidade:</label></td>
+                        <td colspan="2"><input type="text" id="cid" name="cid" minlength="3" maxlength="85" wfd-id="id7"></td>
+                        <td colspan="1"><label class="input-label" for="uf" align="right">UF:</label></td>
+                            <td><select id="uf" name="uf" size="1">
+                                <option value=""></option>
+                                <option value="AC">AC</option><option value="AL">AL</option><option value="AP">AP</option><option value="AM">AM</option><option value="BA">BA</option><option value="CE">CE</option><option value="DF">DF</option><option value="ES">ES</option><option value="GO">GO</option><option value="MA">MA</option><option value="MT">MT</option><option value="MS">MS</option><option value="MG">MG</option><option value="PA">PA</option><option value="PB">PB</option><option value="PR">PR</option><option value="PE">PE</option><option value="PI">PI</option><option value="RJ">RJ</option><option value="RN">RN</option><option value="RS">RS</option><option value="RO">RO</option><option value="RR">RR</option><option value="SC">SC</option><option value="SP">SP</option><option value="SE">SE</option><option value="TO">TO</option>                </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="1"><label class="input-label" for="email" align="right">E-mail:*</label></td>
+                        <td colspan="2"><input type="text" id="email" name="email" required="" wfd-id="id8"></td>
+                        <td colspan="1"><label class="input-label" for="arroba" align="right">@*</label></td>
+                        <td colspan="1"><select id="arroba" name="arroba" size="1" required="">
+                            <option value=""></option>
+                            <option value="gmail.com">gmail.com</option><option value="hotmail.com">hotmail.com</option>                </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="1"><label class="input-label" for="ddd" align="right">Telefone: DDD*</label></td>
+                        <td colspan="1"><input type="text" id="ddd" name="ddd" maxlength="4" required="" wfd-id="id9"></td>
+                        <td colspan="1"><label class="input-label" for="num" align="right">Número:*</label></td>
+                        <td colspan="2"><input type="text" id="num" name="num" maxlength="10" required="" wfd-id="id10"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="1"><label class="input-label" for="login" align="right">Login:*</label></td>
+                        <td colspan="4"><input type="text" id="login" name="login" required="" wfd-id="id11"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="1"><label class="input-label" for="senha" align="right">Senha:*</label></td>
+                        <td colspan="4"><input type="password" id="senha" name="senha" maxlength="64" required="" wfd-id="id12">
+                        <span id="senhaError" class="error"></span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="1"><label class="input-label" for="conf" align="right">Confirmar senha:*</label></td>
+                        <td colspan="4"><input type="password" id="conf" name="conf" required="" wfd-id="id13"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="5">
+                            <div class="button-container">
+                                <button type="submit" class="Button">Salvar</button>
+                                <button type="reset" class="Button">Limpar</button>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody></table>
+            </form>
+</div>            </div>
+        <div id="rodape" class="item4">
+            <h3>hello from Sao Paulo</h3>
+        </div>
+    </div>
+
+<div id="toucan" style="position: static;"></div></body></html>
